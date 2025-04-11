@@ -3,7 +3,7 @@
 n = int(input())
 
 if n <= 0:
-    print()
+    print("Số lượng hệ số không đúng.")
 else:
     a = list(map(float, input().split()))
     
